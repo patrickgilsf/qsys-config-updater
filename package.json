@@ -1,0 +1,20 @@
+{
+  "name": "qsys-config-updater",
+  "version": "1.0.0",
+  "description": "\"push config files from js to q-sys\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "serve": "nodemon -e lua js json app.js"
+  },
+  "author": "Patrick Gilligan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "ide_qsys": "^1.0.1",
+    "nodemon": "^3.1.0"
+  }
+}

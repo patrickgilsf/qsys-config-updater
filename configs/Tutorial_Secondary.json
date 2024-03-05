@@ -1,0 +1,65 @@
+{
+  "readme": "these are just samples",
+  "System": {
+    "ip": "192.168.1.2",
+    "deployments": [
+      {
+        "type": "TP",
+        "off": "TPDeploy"
+      }
+    ]
+  },
+  "TP": {
+    "Comp": "TutorialUCI",
+    "Name": "Backup TP"
+  },
+  "Layers": [
+    {
+      "Name": "Splash"
+    },
+    {
+      "Button": true,
+      "Name": "Power"
+    },
+    {
+      "Button": true,
+      "Name": "Settings"
+    },
+    {
+      "Button": true,
+      "Name": "Audio",
+      "Sub": 3
+    },
+    {
+      "Button": true,
+      "Name": "Video",
+      "Sub": 3
+    },
+    {
+      "Button": true,
+      "Name": "Power"
+    }
+  ],
+  "Start": [
+    "Zoom",
+    "HDMI"
+  ],
+  "SubLayers": {
+    "Video": [
+      "Routing",
+      "Spare"
+    ],
+    "Audio": [
+      "Faders",
+      "Spare"
+    ]
+  },
+  "Audio": {
+    "Name": [
+      "Zoom",
+      "Mic",
+      "HDMI",
+      "spare"
+    ]
+  }
+}
